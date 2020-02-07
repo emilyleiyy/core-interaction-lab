@@ -1,114 +1,35 @@
-body, html{
-    background-color: #edddcf;
-    font-family: Futura;
+body, html {
+	font-family:'Helvetica Neue', sans-serif;
+	top:0;
+	left:0;
+	margin:0;
+	width:100%;
+	height:100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.center{
+
+}
+h1 {
+
+}
+a{
+	text-decoration: none;
 }
 
-h1{
-    font-size: 4rem;
-    text-align: center;    
+.section {
+width: 20em;
+height: 20em;
+background-color: black;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+transition: 0.5s ease-in-out;
 }
 
-h2{
-    font-size: 1.4rem;
-    text-align: center;
-    margin-top: -1rem;
-}
-
-h3{
-    font-size: 1.2rem;
-    text-align: left;
-}
-
-p{
-    font-size: 1rem;
-}
-
-
-.intro{
-    position: relative;
-    top: -10em;
-    left: 50em;
-    width: 30em;
-    text-align: center;
-    line-height: 2em;
-    transition: 0.5s ease-in-out;
-}
-.intro:hover{
-    color: grey;
-}
-
-.section1{
-    position: relative;
-    left: 25em;
-    top: -20em;
-    margin-bottom: -20em;
-    width: 15em;
-    height: 20em;
-    text-align: justify;
-}
-.section2{
-    position: relative;
-    left: 50em;
-    top: -20em;
-    margin-bottom: -20em;
-    width: 15em;
-    height: 20em;
-    text-align: justify;
-}
-
-.brown{
-    position: relative;
-    left: 55em;
-    top: 10em;
-    width: 15em;
-    height: 15em;
-    background-color: #975030;
-}
-
-.white{
-    position: relative;
-    left: 20em;
-    top: 10em;
-    width: 15em;
-    height: 15em;
-    background-color: #e4dfdc;
-}
-
-.black{
-    position: relative;
-    left: 55em;
-    top: 10em;
-    width: 15em;
-    height: 15em;
-    background-color: #292929;
-}
-
-.grey{
-    position: relative;
-    left: 20em;
-    top: 10em;
-    width: 15em;
-    height: 15em;
-    background-color: #866f65;
-}
-
-.right{
-    width: 16%;
-    position: relative;
-    left: 50em;
-    top: -3em;
-}
-
-.left{
-    width: 16%;
-    position: relative;
-    left: 25em;
-    top: -3em;
-}
-
-.designer{
-    position: relative;
-    top: 10em;
-    left: 15em;
-    width: 50%;
+.section:hover{
+	color: white;
+	background-color: #666666;
 }
