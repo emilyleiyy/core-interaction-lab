@@ -1,0 +1,185 @@
+body{
+	font-family: Gill Sans;
+	display: grid;
+	grid-template-columns: repeat(10,1fr);
+	grid-template-rows: repeat(30,5rem);
+	grid-gap: 1.5rem;
+}
+
+h1{
+	font-size: 50pt;
+	grid-column: 2/9;
+	grid-row: 1/2;
+}
+
+h2{
+	font-size: 14pt;
+}
+
+.devide1{
+	border-bottom: 3px solid black;
+	width: 54rem;
+	grid-column: 2/10;
+	grid-row: 2;
+}
+.principle{
+	grid-column: 2/4;
+	grid-row: 3;
+	line-height: 0;
+}
+.principle1{
+	font-size: 12pt;
+	font-weight: lighter;
+	text-align: left;
+	grid-column: 4/6;
+}
+.principle2{
+	font-size: 12pt;
+	font-weight: lighter;
+	text-align: left;
+	grid-column: 6/8;
+
+}
+.principle3{
+	font-size: 12pt;
+	font-weight: lighter;
+	text-align: left;
+	grid-column: 8/10;
+}
+.principle4{
+	font-size: 12pt;
+	font-weight: lighter;
+	text-align: left;
+	grid-column: 4/6;
+	grid-row: 5;
+}
+
+.devide2{
+	border-bottom: 3px solid black;
+	width: 54rem;
+	grid-column: 2/10;
+	grid-row: 6;
+}
+.style{
+	grid-column: 2/4;
+	grid-row: 7;
+	line-height: 0;
+}
+.font{
+	grid-column: 4/9;
+}
+#h1{
+	grid-row: 7;
+	font-size: 50pt;
+}
+#h2{
+	grid-row: 8;
+	font-size: 40pt;
+}
+#h3{
+	grid-row: 9;
+	font-size: 30pt;
+}
+#h4{
+	grid-row: 10;
+	font-size: 20pt;
+}
+#h5{
+	grid-row: 11;
+	font-size: 15pt;
+}
+.color{
+	width: 5rem;
+	height: 5rem;
+}
+#c1{
+	grid-column: 4;
+	grid-row: 12;
+	background-color: #14223c;
+}
+#c2{
+	grid-column: 5;
+	grid-row: 12;
+	background-color: #f8c255;
+}
+#c3{
+	grid-column: 6;
+	grid-row: 12;
+	background-color: #e9eae2;
+}
+#c4{
+	grid-column: 7;
+	grid-row: 12;
+	background-color: #7dd5c9;
+}
+
+.devide3{
+	border-bottom: 3px solid black;
+	width: 54rem;
+	grid-column: 2/10;
+	grid-row: 13;
+}
+.box{
+	background-color:lightgrey;
+	height: 10rem;
+	width: 35rem;
+	border-radius: 15px;
+}
+#b1{
+	grid-row: 14;
+	grid-column: 4/9;
+}
+#b2{
+	grid-row: 16;
+	grid-column: 4/9;
+}
+#b3{
+	grid-row: 18;
+	grid-column: 4/9;
+}
+#b4{
+	grid-row: 20;
+	grid-column: 4/9;
+}
+#b5{
+	grid-row: 22;
+	grid-column: 4/9;
+}
+
+.component{
+	grid-column: 2/4;
+	grid-row: 14;
+	line-height: 0;
+}
+.regions{
+	grid-column: 2/4;
+	grid-row: 16;
+	line-height: 0;
+}
+.content{
+	grid-column: 2/4;
+	grid-row: 18;
+	line-height: 0;
+}
+.layout{
+	grid-column: 2/4;
+	grid-row: 20;
+	line-height: 0;
+}
+.usability{
+	grid-column: 2/4;
+	grid-row: 22;
+	line-height: 0;
+}
+
+.devide4{
+	border-bottom: 3px solid black;
+	width: 54rem;
+	grid-column: 2/10;
+	grid-row: 24;
+}
+.adjustments{
+	grid-column: 2/4;
+	grid-row: 25;
+	line-height: 0;
+}
