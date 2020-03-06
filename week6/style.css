@@ -51,6 +51,12 @@ body{
 h2{
 	font-size: 14pt;
 }
+h3{
+  font-size: 20pt;
+}
+h4{
+  font-size: 15pt;
+}
 
 /* Design Principles */
 .devide1{
@@ -115,19 +121,19 @@ h2{
 }
 #h2{
 	grid-row: 8;
-	font-size: 40pt;
+	font-size: 30pt;
 }
 #h3{
 	grid-row: 9;
-	font-size: 30pt;
+	font-size: 20pt;
 }
 #h4{
 	grid-row: 10;
-	font-size: 20pt;
+	font-size: 15pt;
 }
 #h5{
 	grid-row: 11;
-	font-size: 15pt;
+	font-size: 12pt;
 }
 .color{
 	width: 5rem;
@@ -474,3 +480,106 @@ button:hover {
   clear: both;
   display: table;
 }
+
+
+
+
+/* Design Patterns */
+.patterns{
+  grid-column: 2/4;
+  grid-row: 20;
+  line-height: 0;
+}
+#container4{
+  display: inline-grid;
+  grid-column: 4/10;
+  grid-row-start: 20;
+  grid-template-columns: repeat(10,1fr);
+  grid-auto-rows: min-content;
+  grid-gap: 1.5rem;
+}
+
+/* Card with image */
+#card-with-image{
+  grid-column: 1/5;
+  height: 41rem;
+  box-shadow: 3px 3px 3px 3px lightgrey;
+  padding: 2rem;
+  background-color: #c3c6b1;
+  border-radius: 5px;
+}
+
+/* Profile Card */
+#profile-card{
+  grid-column: 6/10;
+  box-shadow: 3px 3px 3px 3px lightgrey;
+  height: 36rem;
+  padding: 2rem;
+  background-color: #eec9b7;
+  border-radius: 5px;
+}
+.contact{
+  width: 10rem;
+  height: 2.5rem;
+  background-color: #dba686;
+  font-size: 12pt;
+  line-height: 0;
+  color: black;
+  font-family: Gill Sans;
+}
+.contact:hover {
+  background-color: #c7997d; 
+  color: white; 
+}
+
+/* Sign Up Form */
+#sign-up-form{
+  padding: 2rem;
+  font-family: Gill Sans;
+  grid-column: 1/5;
+  grid-row: 2;
+  height: 25rem;
+  background-color: #dfd3b8;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px 3px lightgrey;
+}
+input[type=text], input[type=password] {
+  width:90%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #efe9db;
+}
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #d1cbbe;
+  outline: none;
+}
+.sign-up{
+  width: 6rem;
+  height: 2.5rem;
+  background-color: #dba686;
+  font-size: 12pt;
+  line-height: 0;
+  color: black;
+  font-family: Gill Sans;
+}
+.sign-up:hover{
+  background-color: #c7997d; 
+  color: white; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
