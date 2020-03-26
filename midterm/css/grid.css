@@ -1,0 +1,59 @@
+/* grid */
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+.start {
+  display: inline-block;
+}
+.wrapper {
+  background: #f3f3f3;
+}
+.wrapper .content {
+  width: 980px;
+  margin: auto;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 980px;
+}
+.wrapper .content h2,
+.wrapper .content h3 {
+  color: #c4c1ae;
+}
+.wrapper .content p {
+  color: #c4c1ae;
+}
+.wrapper .content fieldset {
+  border: none;
+}
+.wrapper .content legend,
+.wrapper .content span,
+.wrapper .content em {
+  color: #c4c1ae;
+}
+
+.wrapper .content input,
+.wrapper .content label,
+.wrapper .content fieldset {
+  color: #c4c1ae;
+  padding: 0.5rem;
+}
+.wrapper .content #first_name,
+.wrapper .content #middle_initial,
+.wrapper .content #last_name,
+.wrapper .content #suffix {
+  width: 180px;
+  border: 1px solid #c4c1ae;
+}
+.wrapper .content .length {
+  margin: auto;
+  padding: 0.5rem;
+}
+.item {
+  text-align: center;
+  border: 1px solid #fff;
+  color: #fff;
+  font-weight: bold;
+  line-height: 150px;
+}

@@ -1,0 +1,95 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-03-22 16:49:30
+ * @LastEditTime: 2020-03-24 12:45:22
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \src\index.html
+ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/jquery-1.8.3.min.js"></script>
+</head>
+
+<body class="home">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div id="box1" class='fn-clear animated fadeIn pageshow1'>
+                    <div class="contxt">
+                        New York State Voter Registration Form
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div id="box2" class="fn-clear animated fadeIn pageshow2">
+                    <div class="contxt">
+                        Register to vote
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div id="box3" class="fn-clear animated fadeIn pageshow3">
+                    <div class="contxt">
+                        <p class="tit">With this form, you register to vote in elections in New York State. You can also
+                            use this
+                            form to:</p>
+                        <p class="desc">• change the name or address on your voter registration
+                            <br>• become a member of a political party<br>
+                            • change your party membership
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div id="box4" class="fn-clear animated fadeIn pageshow4">
+                    <div class="contxt fl">
+                        <a href="./index.html">Things you need to know</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <script>
+        var mySwiper = new Swiper('.swiper-container', {
+            direction: 'vertical', // 垂直切换选																											项
+            followFinger: false,
+            speed: 800,
+            height: window.innerHeight,
+            initialSlide: 0,//从0开始
+            mousewheel: true,
+            // 如果需要前进后退按钮
+            navigation: {
+                nextEl: '.next',
+                prevEl: '.prev',
+            },
+            //设置宽度为全屏  
+            // width: window.innerWidth,
+            // height: window.innerHeight,
+            on: {
+                init: function () {
+                    swiperAnimateCache(this); //隐藏动画元素 
+                    swiperAnimate(this); //初始化完成开始动画
+                },
+                slideChangeTransitionEnd: function () {
+                    swiperAnimate(this); //每个slide切换结束时也运行当前slide动画
+                    //this.slides.eq(this.activeIndex).find('.ani').removeClass('ani'); 动画只展现一次，去除ani类名
+                    console.log(this.realIndex)
+                    if (this.realIndex == 4) {
+                        $('.next_page').hide();
+                    } else {
+                        $('.next_page').show();
+                    }
+                }
+            }
+        })        
+    </script> -->
+</body>
+
+</html>
