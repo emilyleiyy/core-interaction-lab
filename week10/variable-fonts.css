@@ -1,21 +1,21 @@
 /* Load the variable font */
 @font-face {
-  font-family: 'Roboto VF';
-  src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/57225/Roboto-VF.woff2') format('woff2-variations');
+  font-family: 'FF Meta VF';
+  src: url('MetaVariableDemo-Roman.ttf') format('truetype');
   font-stretch: 75% 100%;
   font-style: oblique 0deg 12deg;
   font-weight: 100 900;
 }
 
 :root {
-  --text-weight: 500;
+  --text-weight: 100;
   --text-width: 100;
   --text-slant: 0;
 }
 
 html {
   box-sizing: border-box;
-  font-family: "Roboto VF", "Roboto", sans-serif;
+  font-family: "FF Meta VF", sans-serif;
 }
 
 *, *:before, *:after {
