@@ -1,0 +1,651 @@
+body{
+	font-family: Gill Sans;
+	display: grid;
+	grid-template-columns: repeat(10,1fr);
+	grid-template-rows: repeat(50,5rem);
+	grid-gap: 1.5rem;
+}
+
+.topicwrap{
+	display: grid;
+	grid-column: 1/11;
+	grid-template-columns: repeat(20,1fr);
+	grid-template-rows: repeat(2,5rem);
+}
+.topic{
+	font-size: 50pt;
+}
+#D{
+	grid-column: 4;
+	grid-row: 1;
+}
+#E{
+	grid-column: 5;
+	grid-row: 2;
+}
+#SIGN{
+	margin-top: 2rem;
+	text-align: center;
+	grid-column: 6/9;
+	grid-row: 1/2;
+}
+#SYS{
+	grid-column: 12/15;
+	grid-row: 1;
+}
+#T{
+	grid-column: 14;
+	grid-row: 2;
+}
+#E2{
+	margin-top: 2rem;
+	grid-column: 15;
+	grid-row: 1/2;
+}
+#M{
+	margin-top: 2.5rem;
+	grid-column: 16;
+	grid-row: 1/2;
+}
+
+
+/* devides */
+.devide1{
+  border-bottom: 3px solid black;
+  width: 70rem;
+  grid-column: 2/10;
+  grid-row: 2;
+}
+.devide2{
+  border-bottom: 3px solid black;
+  width: 70rem;
+  grid-column: 2/10;
+  grid-row: 6;
+}
+.devide3{
+  border-bottom: 3px solid black;
+  width: 70rem;
+  grid-column: 2/10;
+  grid-row: 10;
+}
+.devide4{
+  border-bottom: 3px solid black;
+  width: 70rem;
+  grid-column: 2/10;
+  grid-row: 19;
+}
+.devide5{
+  border-bottom: 3px solid black;
+  width: 70rem;
+  grid-column: 2/10;
+  grid-row: 26;
+}
+
+
+
+
+
+
+/* Design Principles */
+.principle{
+	grid-column: 2/4;
+	grid-row: 3;
+	line-height: 0;
+}
+.principle1{
+	font-size: 12pt;
+	font-weight: lighter;
+	text-align: left;
+	grid-column: 4/6;
+	grid-row: 3;
+}
+.principle2{
+	font-size: 12pt;
+	font-weight: lighter;
+	text-align: left;
+	grid-column: 6/8;
+	grid-row: 3;
+}
+.principle3{
+	font-size: 12pt;
+	font-weight: lighter;
+	text-align: left;
+	grid-column: 8/10;
+	grid-row: 3;
+}
+.principle4{
+	font-size: 12pt;
+	font-weight: lighter;
+	text-align: left;
+	grid-column: 4/6;
+	grid-row: 5;
+	grid-row: 5;
+}
+
+
+
+
+
+
+/* Style */
+#section{
+  display: inline-grid;
+  grid-column: 4/10;
+  grid-row-start: 11;
+  grid-template-columns: repeat(10,1fr);
+  grid-auto-rows: min-content;
+  grid-gap: 1.5rem;
+}
+.style{
+	grid-column: 2/4;
+	grid-row: 11;
+	line-height: 0;
+}
+
+h1{
+  font-size: 50pt;
+}
+h2{
+  font-size: 30pt;
+}
+h3{
+  font-size: 20pt;
+}
+h4{
+  font-size: 15pt;
+}
+h5{
+  font-size: 12pt;
+}
+.header{
+  grid-column:1/10;
+  grid-column-start: 1;
+}
+
+.color{
+  display: grid;
+  grid-column: 1/10;
+  grid-template-columns: repeat(6,1fr);
+  grid-gap: 0.5rem;
+  grid-auto-rows: 7rem;
+}
+#c1{
+  width: 5rem;
+  height: 5rem;
+	background-color: #eec9b7;
+}
+#c2{
+  width: 5rem;
+  height: 5rem;
+	background-color: #4b553a;
+}
+#c3{
+  width: 5rem;
+  height: 5rem;
+	background-color: #c3c6b1;
+}
+#c4{
+  width: 5rem;
+  height: 5rem;
+	background-color: #dba686;
+}
+#c5{
+  width: 5rem;
+  height: 5rem;
+	background-color: #efe9db;
+}
+#c6{
+  width: 5rem;
+  height: 5rem;
+	background-color: #d68162;
+}
+
+
+
+/* Components */
+.component{
+	grid-column: 2/4;
+	grid-row: 20;
+	line-height: 0;
+}
+#container3{
+	display: inline-grid;
+	grid-column: 4/10;
+	grid-row-start: 20;
+	grid-template-columns: repeat(10,1fr);
+	grid-auto-rows: min-content;
+	grid-gap: 1.5rem;
+}
+#box3{
+	grid-column: 1/6;
+	grid-row: 1;
+}
+
+
+/* -- buttons -- */
+.button {
+  	background-color: #CF9730; 
+  	border-radius: 10px;
+  	color: white;
+  	padding: 8px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	margin: 4px 2px;
+  	transition-duration: 0.4s;
+  	cursor: pointer;
+}
+
+.button1 {
+  background-color: #4b553a; 
+  color: white; 
+}
+
+.button1:hover {
+  background-color: #2b3021;
+  color: white;
+}
+
+.button2 {
+  background-color: #c3c6b1; 
+  color: white; 
+  border: 2px solid #4b553a;
+}
+
+.button2:hover {
+  background-color: #e4e8cf; 
+  color: white; 
+  border: 2px solid #c3c6b1;
+}
+
+.button3 {
+  background-color: #dba686; 
+  color: white; 
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.button3:hover {
+  background-color: #dba686; 
+  color: white; 
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* -- input field -- */
+
+
+input[type=text] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #F2B138;
+  border-radius: 2px;
+  color: black; 
+
+}
+
+  /* -- dropdown -- */
+
+
+.dropbtn {
+  background-color: #d68162; 
+  box-shadow: 3px 3px 2px 1px rgba(22, 22, 22, .4);
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  border-radius: 5px;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #efe9db}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #a8664d;
+}
+
+/* -- switch -- */
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #CCC;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #d68162;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #d68162;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+/* -- date picker -- */
+
+
+label {
+    display: block;
+    font: 1rem;
+}
+
+input {
+    margin: .4rem 0;
+    border: 1px solid #F2B138;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+/* -- loader -- */
+
+
+.loader {
+  
+  border: 16px solid #efe9db;
+  border-radius: 50%;
+  border-top: 16px solid #dba686;
+  width: 100px;
+  height: 100px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+img {
+  width:100%;
+}
+
+
+/*-- sign up form --*/
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width:90%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #efe9db;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #d1cbbe;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #E6ECF2;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #434E59;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.sign-up-container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+/* Design Patterns */
+.patterns{
+  grid-column: 2/4;
+  grid-row: 27;
+  line-height: 0;
+}
+#container4{
+  display: inline-grid;
+  grid-column: 4/10;
+  grid-row-start: 27;
+  grid-template-columns: repeat(10,1fr);
+  grid-auto-rows: min-content;
+  grid-gap: 1.5rem;
+}
+
+/* Card with image */
+#card-with-image{
+  grid-column: 1/5;
+  height: 41rem;
+  box-shadow: 3px 3px 3px 3px lightgrey;
+  padding: 2rem;
+  background-color: #c3c6b1;
+  border-radius: 5px;
+}
+
+/* Profile Card */
+#profile-card{
+  grid-column: 6/10;
+  box-shadow: 3px 3px 3px 3px lightgrey;
+  height: 36rem;
+  padding: 2rem;
+  background-color: #eec9b7;
+  border-radius: 5px;
+}
+.contact{
+  width: 10rem;
+  height: 2.5rem;
+  background-color: #dba686;
+  font-size: 12pt;
+  line-height: 0;
+  color: black;
+  font-family: Gill Sans;
+}
+.contact:hover {
+  background-color: #c7997d; 
+  color: white; 
+}
+
+/* Sign Up Form */
+#sign-up-form{
+  padding: 2rem;
+  font-family: Gill Sans;
+  grid-column: 1/5;
+  grid-row: 2;
+  height: 25rem;
+  background-color: #dfd3b8;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px 3px lightgrey;
+}
+input[type=text], input[type=password] {
+  width:90%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #efe9db;
+}
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #d1cbbe;
+  outline: none;
+}
+.sign-up{
+  width: 6rem;
+  height: 2.5rem;
+  background-color: #dba686;
+  font-size: 12pt;
+  line-height: 0;
+  color: black;
+  font-family: Gill Sans;
+}
+.sign-up:hover{
+  background-color: #c7997d; 
+  color: white; 
+}
+
+
+
+
+
+
+
+
+/* Adjustments */
+.adjustments{
+  grid-column: 2/4;
+  grid-row: 7;
+  line-height: 0;
+}
+.container5{
+  grid-column: 4/10;
+  grid-row-start: 7;
+}
+.ad{
+  background-color: white;
+  color: black;
+  border:2px solid black;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #434E59;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.sign-up-container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
