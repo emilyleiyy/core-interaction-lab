@@ -1,0 +1,47 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+}
+
+video{
+/*   display: none; */
+}
+
+.face-element{
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: transform .3s ease;
+  font-size: 24px;
+  font-weight: 600;
+  transform-origin: center;
+  text-align: center;
+}
+
+#face{
+  background-color: #f1f1f1;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  opacity: 0;
+}
+
+#nose{
+}
+
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+#animated-nose{
+  animation: spin infinite 3s;
+}
+
+#leftEye{
+padding: 1rem;
+}
+
+#rightEye{
+}
